@@ -1,0 +1,10 @@
+@media all and (min-width: 480px) {
+    .AddTables {
+        padding: 60px 0;
+    }
+
+    .AddTables form {
+        margin: 0 auto;
+        max-width: 320px;
+    }
+}

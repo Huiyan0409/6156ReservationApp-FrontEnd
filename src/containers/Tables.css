@@ -1,0 +1,12 @@
+tbody {
+  border: 1px solid black;
+  table-layout: fixed;
+  width: 300px;
+}
+
+th,
+td {
+  border: 1px solid black;
+  width: 200px;
+  overflow: hidden;
+}
