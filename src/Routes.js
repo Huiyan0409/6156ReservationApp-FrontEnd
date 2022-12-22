@@ -10,6 +10,8 @@ import GetInTables from "./containers/InDoorTables";
 import GetOutTables from "./containers/OutDoorTables";
 import AddTables from "./containers/AddTables";
 import DeleteTables from "./containers/DeleteTables";
+import Reservation from "./containers/Reservation";
+import CheckReservation from "./containers/CheckReservations";
 
 export default function Links() {
     return (
@@ -23,6 +25,8 @@ export default function Links() {
             <Route path="/outdoor" element={<GetOutTables />} />
             <Route path="/addTables" element={<AddTables />} />
             <Route path="/deleteTables" element={<DeleteTables />} />
+            <Route path="/reservation" element={<Reservation />} />
+            <Route path="/checkReservation" element={<CheckReservation />} />
             {
                 /* Finally, catch all unmatched routes */
             }
